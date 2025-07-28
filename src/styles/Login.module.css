@@ -1,0 +1,113 @@
+@import '../styles/variables.css';
+
+.screen {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: var(--cor-principal);
+
+    width: 40rem;
+    height: 40rem;
+
+    gap: 1rem;
+
+    border: none;
+    border-radius: 2.5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.logo {
+    width: 30rem;
+    height: 10rem;
+}
+
+.title {
+    font: 800 2.3rem var(--fonte-principal);
+    color: #fff;
+
+    text-align: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1.5rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+.inputContainer label {
+    font: 400 1.6rem var(--fonte-principal);
+    color: #fff;
+
+    padding-left: 0.2rem;
+}
+
+.inputContainer input {
+    height: 2.7rem;
+    width: 18rem;
+    
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+
+    padding-left: 0.5rem;
+
+    font: 400 1.4rem var(--fonte-principal)
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+.footer button {
+    font: 600 1.4rem var(--fonte-principal);
+    color: #fff;
+    
+    width: 10rem;
+    height: 3rem;
+
+    background-color: var(--cor-secundaria);
+    
+    border: none;
+    cursor: pointer;
+
+    transition: all .4s ease-in-out;
+}
+
+.footer button:hover {
+    transition: .5s;
+    transform: scale(1.05);
+
+    background-color: #fff;
+    color: #000;
+}
