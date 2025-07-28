@@ -1,7 +1,11 @@
+import { useState } from "react"
+import HandleLogin from "../utils/handleLogin";
 import style from "../styles/Login.module.css"
 
 function LoginScreen() {
 
+    const [nomeUsuario, setNomeUsuario] = useState();
+    const [senha, setSenha] = useState();
 
     
     return (
@@ -29,7 +33,8 @@ function LoginScreen() {
                                 </label>
                                 <input 
                                     type="text" 
-                                    name="nomeUsuario" />
+                                    name="nomeUsuario"
+                                    onChange={(e) => setNomeUsuario(e.target.value)} />
                         </div>
                         <div
                             className={style.inputContainer}>
@@ -40,13 +45,15 @@ function LoginScreen() {
                                 </label>
                                 <input 
                                     type="password" 
-                                    name="senha"/>
+                                    name="senha"
+                                    onChange={(e) => setSenha(e.target.value)}/>
                         </div>
                     </article>
                     <footer
                         className={style.footer}>
-                            <button>
-                                Acessar
+                            <button
+                                onClick={() => HandleLogin(nomeUsuario, senha)}>
+                                    Acessar
                             </button>
                     </footer>
                 </section>
