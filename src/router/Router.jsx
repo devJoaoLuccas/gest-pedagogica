@@ -6,5 +6,9 @@ export const routes = createBrowserRouter([
     {
         path: "/",
         element: <LoginScreen />
+    },
+    {
+        path: "/home",
+        element: <Home />
     }
 ])
