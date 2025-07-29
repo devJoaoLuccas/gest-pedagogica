@@ -1,4 +1,4 @@
-import { estudante } from "../utils/estudante";
+import { estudante } from "../utils/estudantes";
 import CardProfile from "../components/CardProfile";
 
 function Home() {
@@ -14,9 +14,7 @@ function Home() {
                             alt="" />
                         <h1>Gestão Pedagógica</h1>
                     </div>
-                    <div>
-                        
-                    </div>
+                    <CardProfile />
                 </header>
             </section>
         </>

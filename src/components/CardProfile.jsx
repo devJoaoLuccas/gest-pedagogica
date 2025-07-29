@@ -1,14 +1,20 @@
+import { estudantes } from "../utils/estudantes";
 import { estudante } from "../utils/estudante";
 
 function CardProfile() {
 
     return (
         <> 
-            <div>
-            
-            </div>    
-    
-        
+           {
+             estudante != null ? 
+                <div>
+                    <img 
+                        src={`src/assets/estudantes/${estudante.numeroSecretaria}`} 
+                        alt="" />
+                </div> 
+             : <p>Erro estudante não encontrado</p>
+
+           }
         </>
     )
 }
