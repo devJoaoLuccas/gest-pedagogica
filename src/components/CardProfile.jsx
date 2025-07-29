@@ -1,4 +1,3 @@
-import { estudantes } from "../utils/estudantes";
 import { estudante } from "../utils/estudante";
 
 function CardProfile() {

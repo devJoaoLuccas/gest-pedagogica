@@ -1,4 +1,4 @@
-import { estudante } from "../utils/estudantes";
+
 import CardProfile from "../components/CardProfile";
 
 function Home() {
