@@ -1,7 +1,7 @@
 
 
-export const estudante = {
-        nome: "Laura Gonzaga Grismeyer",
+export let estudante = {
+        nome: "LAURA GONZAGA GRIESMEYER",
         numeroSecretaria: "014314",
         email: "laura.griesmeyer@aluno.colegioperfil.com.br",
         serie: "21",

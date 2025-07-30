@@ -1,7 +1,7 @@
 
 
 export const estudantes = [{
-        nome: "Laura Gonzaga Grismeyer",
+        nome: "LAURA GONZAGA GRIESMEYER",
         numeroSecretaria: "014314",
         email: "laura.griesmeyer@aluno.colegioperfil.com.br",
         serie: "21",
