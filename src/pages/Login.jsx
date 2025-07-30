@@ -15,7 +15,7 @@ function LoginScreen() {
                         className={style.header}>
                             <img
                                 className={style.logo} 
-                                src="src/assets/logoBranca.png" 
+                                src="src/assets/logos/logoBranca.png" 
                                 alt="Logo Perfil Branca"/>
                             <h1
                                 className={style.title}>
