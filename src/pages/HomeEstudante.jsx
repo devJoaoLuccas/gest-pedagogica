@@ -1,5 +1,8 @@
 import styles from "../styles/Home.module.css";
+
 import CardProfile from "../components/CardProfile";
+import EstudanteInfo from "../components/EstudantesInfo";
+import { estudante } from "../utils/estudante";
 
 function Home() {
 
@@ -21,6 +24,7 @@ function Home() {
                             </div>
                             <CardProfile />
                     </header>
+                    <EstudanteInfo estudante = {estudante}/>
             </section>
         </>
     )
