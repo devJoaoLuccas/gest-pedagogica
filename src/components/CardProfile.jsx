@@ -48,11 +48,6 @@ function CardProfile() {
                 <p>ERRO, não foi possível carregar o seu usuário</p>
              )
            }
-
-           <button
-            onClick={() => verificaEstudante()}>
-                teste
-           </button>
         </>
     )
 }

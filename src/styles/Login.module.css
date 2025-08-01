@@ -99,6 +99,7 @@
     background-color: var(--cor-secundaria);
     
     border: none;
+    border-radius: 1.3rem;
     cursor: pointer;
 
     transition: all .4s ease-in-out;
